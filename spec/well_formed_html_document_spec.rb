@@ -28,7 +28,7 @@ RSpec.describe "Well-Formed HTML Document" do
   #       expect(html_file_contents).to include('</title>')
   #     end
   #   end
-  # end
+  end
 
   context 'within <html>' do
     it 'contains a <body> tag to enclose the body of the document' do
